@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/myStyle.css">
+    <link rel="shortcut icon" href="faviconIco2.svg" type="image/x-icon">
+    <title>Progress</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <a  class="navbar-brand">Ahmed</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#colabseNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="colabseNav" >
+                    <ul class="navbar-nav ms-auto d-flex align-items-center">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active pointer-event">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link  pointer-event">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link  pointer-event">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link  pointer-event">Contact</a>
+                        </li>
+                        <li class="search d-none d-lg-flex">
+                            <i class="fa fa-search text-primary" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container text-center">
+            <button id="btn" class="btn  btn-primary mt-5 "> Show circul progress</button>
+
+            <button id="btn2" class="btn  btn-primary mt-5 "> Show  progress</button>
+        </div>
+        <section id="progressBar" class="progressBar my-5 ">
+            <div class="container">
+                <div class="skills-bar w-75 m-auto">
+                    <div class="skills my-2">
+                        <h4>HTML</h4>
+                        <div class="progress">
+                            <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-danger w-95 ">
+                                <span class="ms-auto">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills my-2">
+                        <h4>CSS</h4>
+                        <div class="progress">
+                            <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-danger w-90 ">
+                                <span class="ms-auto">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills my-2">
+                        <h4>SCSS</h4>
+                        <div class="progress">
+                            <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-danger w-80 ">
+                                <span class="ms-auto">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills my-2">
+                        <h4>Bottstrap</h4>
+                        <div class="progress">
+                            <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-danger w-98 ">
+                                <span class="ms-auto">98%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills my-2">
+                        <h4>Js</h4>
+                        <div class="progress">
+                            <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-danger w-80 ">
+                                <span class="ms-auto">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="progressCircul" class="progressCircul  my-5">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <div class="circular">
+                            <div class="circular-progress" style="background: conic-gradient(#7d2ae8 95% , #ededed 0deg);">
+                                <span class="progress-value">95%</span>
+                            </div>
+                            <span class="mt-2 fs-5 text-primary">HTML</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="circular">
+                            <div class="circular-progress" style="background: conic-gradient(#7d2ae8 90% , #ededed 0deg);">
+                                <span class="progress-value">90%</span>
+                            </div>
+                            <span class="mt-2 fs-5 text-primary">CSS</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="circular">
+                            <div class="circular-progress" style="background: conic-gradient(#7d2ae8 80% , #ededed 0deg);">
+                                <span class="progress-value">80%</span>
+                            </div>
+                            <span class="mt-2 fs-5 text-primary">SCSS</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="circular">
+                            <div class="circular-progress" style="background: conic-gradient(#7d2ae8 98% , #ededed 0deg);">
+                                <span class="progress-value">98%</span>
+                            </div>
+                            <span class="mt-2 fs-5 text-primary">Bootstrap</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="circular">
+                            <div class="circular-progress" style="background: conic-gradient(#7d2ae8 75% , #ededed 0deg);">
+                                <span class="progress-value">75%</span>
+                            </div>
+                            <span class="mt-2 fs-5 text-primary">JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="style/bootstrap.bundle.min.js"></script>
+    <script src="style/all.min.js"></script>
+    <script src="style/script.js"></script>
+</body>
+</html>
